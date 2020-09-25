@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADupe" xml:space="preserve">
+    <value>The following files overwrite files already in the arc file system:</value>
+  </data>
+  <data name="ADupeFind" xml:space="preserve">
+    <value>Arc Dupe finding took</value>
+  </data>
+  <data name="ArcAsk" xml:space="preserve">
+    <value>Should we read the arc files? This process will make the scan take significantly longer but will provide the best accuracy. Enter 1 for Yes, 0 for No</value>
+  </data>
+  <data name="ARead" xml:space="preserve">
+    <value>Arc reading took</value>
+  </data>
+  <data name="CArc" xml:space="preserve">
+    <value>File already in the Arc! This requires careful judgement. This can be meant to patch a game file and should be left or it can simply be a duplicate and should be removed in this case.</value>
+  </data>
+  <data name="CBad" xml:space="preserve">
+    <value>Dark Red - Bad files! Remove immediately! - Critical</value>
+  </data>
+  <data name="CCode" xml:space="preserve">
+    <value>Color Code!</value>
+  </data>
+  <data name="CDupe" xml:space="preserve">
+    <value>Duplicate files! Not good practice and should be corrected.</value>
+  </data>
+  <data name="CErr" xml:space="preserve">
+    <value>Red - Possible Application Errors, but could be bad files - Error</value>
+  </data>
+  <data name="CInfo" xml:space="preserve">
+    <value>White - Information</value>
+  </data>
+  <data name="CMCheck" xml:space="preserve">
+    <value>Checking if CM is linked</value>
+  </data>
+  <data name="CMiss" xml:space="preserve">
+    <value>Missing mod files! These will cause you errors ingame - Critical</value>
+  </data>
+  <data name="Cont" xml:space="preserve">
+    <value>Press the esc key to continue.</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>We are at</value>
+  </data>
+  <data name="Crit" xml:space="preserve">
+    <value>The following critical files were found and must be removed or corrected immediately:</value>
+  </data>
+  <data name="CWarn" xml:space="preserve">
+    <value>Yellow - Errors that may not affect your game - Warning</value>
+  </data>
+  <data name="DirAsk" xml:space="preserve">
+    <value>Enter COM3D2 or CM3D2 Directory (Example: C:\KISS\COM3D2):</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done!</value>
+  </data>
+  <data name="Dupe" xml:space="preserve">
+    <value>The following duplicates were found:</value>
+  </data>
+  <data name="DupeFind" xml:space="preserve">
+    <value>Dupe finding took</value>
+  </data>
+  <data name="Err" xml:space="preserve">
+    <value>The following files have errors:</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Oops! Ran into the following exception</value>
+  </data>
+  <data name="FilePrep" xml:space="preserve">
+    <value>File preparing took</value>
+  </data>
+  <data name="FolderAsk" xml:space="preserve">
+    <value>Do we look inside the Mod folder or the Sybaris\GameData folder? Enter 1 for GameData, 2 for Mod.</value>
+  </data>
+  <data name="GiBs" xml:space="preserve">
+    <value>GiBs</value>
+  </data>
+  <data name="LArc" xml:space="preserve">
+    <value>We are loading arc files</value>
+  </data>
+  <data name="LCMArc" xml:space="preserve">
+    <value>We are loading CM arc files</value>
+  </data>
+  <data name="LMArc" xml:space="preserve">
+    <value>We are loading more arc files</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading file names and verifying files...</value>
+  </data>
+  <data name="MatFile" xml:space="preserve">
+    <value>Material file</value>
+  </data>
+  <data name="MErr" xml:space="preserve">
+    <value>Mod Error checking took</value>
+  </data>
+  <data name="MErrCat" xml:space="preserve">
+    <value>Unrecognized category in</value>
+  </data>
+  <data name="MErrColSlot" xml:space="preserve">
+    <value>Unrecognized color_set slot:</value>
+  </data>
+  <data name="MErrDel" xml:space="preserve">
+    <value>DelItem not found:</value>
+  </data>
+  <data name="MErrDelEmpty" xml:space="preserve">
+    <value>Empty Delitem Entry</value>
+  </data>
+  <data name="MErrFloat" xml:space="preserve">
+    <value>Could not parse float</value>
+  </data>
+  <data name="MErrHead" xml:space="preserve">
+    <value>ReadErr while reading Header at</value>
+  </data>
+  <data name="MErrL" xml:space="preserve">
+    <value>LengthErr:</value>
+  </data>
+  <data name="MErrMCat" xml:space="preserve">
+    <value>Unrecognized Master Category:</value>
+  </data>
+  <data name="MErrMekure" xml:space="preserve">
+    <value>Unrecognized Mekure State:</value>
+  </data>
+  <data name="MErrNum" xml:space="preserve">
+    <value>NotANumber:</value>
+  </data>
+  <data name="MErrReadErr" xml:space="preserve">
+    <value>ReadErr</value>
+  </data>
+  <data name="MErrRecoSlot" xml:space="preserve">
+    <value>Recolor Slot Error:</value>
+  </data>
+  <data name="MErrSlot" xml:space="preserve">
+    <value>Unrecognized slot in</value>
+  </data>
+  <data name="MErrTSlot" xml:space="preserve">
+    <value>Unrecognized Texture Slot:</value>
+  </data>
+  <data name="MErrType" xml:space="preserve">
+    <value>FileType Error:</value>
+  </data>
+  <data name="MErrUPri" xml:space="preserve">
+    <value>Unsafe priority</value>
+  </data>
+  <data name="MFile" xml:space="preserve">
+    <value>Menu file</value>
+  </data>
+  <data name="MFileSpace" xml:space="preserve">
+    <value>Menu file name has a white space</value>
+  </data>
+  <data name="Missing" xml:space="preserve">
+    <value>is missing</value>
+  </data>
+  <data name="MMiss" xml:space="preserve">
+    <value>The following mods are missing these files:</value>
+  </data>
+  <data name="ModCount" xml:space="preserve">
+    <value>were Mod Files with a total size of about</value>
+  </data>
+  <data name="MoFile" xml:space="preserve">
+    <value>Model file </value>
+  </data>
+  <data name="NoModCount" xml:space="preserve">
+    <value>were Non-Mod Files with a total size of about</value>
+  </data>
+  <data name="NoRead" xml:space="preserve">
+    <value>Couldn't Read:</value>
+  </data>
+  <data name="NotMate" xml:space="preserve">
+    <value>Not a material file:</value>
+  </data>
+  <data name="NotMenu" xml:space="preserve">
+    <value>Not a menu file:</value>
+  </data>
+  <data name="NotModel" xml:space="preserve">
+    <value>Not a model file:</value>
+  </data>
+  <data name="Proc1" xml:space="preserve">
+    <value>We processed</value>
+  </data>
+  <data name="Proc2" xml:space="preserve">
+    <value>files along with</value>
+  </data>
+  <data name="Proc3" xml:space="preserve">
+    <value>arc files in</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Press the esc key to terminate . . .</value>
+  </data>
+  <data name="Scanning" xml:space="preserve">
+    <value>Scanning Files...</value>
+  </data>
+  <data name="sec" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="Sep-" xml:space="preserve">
+    <value>-------------------------------------------</value>
+    <comment>Pointless, meant to help organize strings</comment>
+  </data>
+  <data name="Sep2-" xml:space="preserve">
+    <value>-----------------------------------</value>
+    <comment>Last Seperator</comment>
+  </data>
+  <data name="Warn" xml:space="preserve">
+    <value>The following are files with issues that elicit a warning:</value>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>Working...</value>
+  </data>
+</root>
