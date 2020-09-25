@@ -430,7 +430,7 @@ namespace Bad_Mod_Hunter
 
 					Console.WriteLine("\n\n" + rm.GetString("Proc1") +" "+ fileI.Count + " "+ rm.GetString("Proc2") + " " + aFileNames.Count + " " + rm.GetString("Proc3") + " " + watch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sec") + "\n");
 					Console.WriteLine(rm.GetString("ARead") + " " + arcwatch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sec") + "\n");
-					Console.WriteLine(rm.GetString("FilePrep") + " " + filewatch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sec") + "\n");
+					Console.WriteLine(rm.GetString("FilePrep") + " " + filewatch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sect") + "\n");
 					Console.WriteLine(rm.GetString("DupeFind") + " " + dupewatch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sec") + "\n");
 					Console.WriteLine(rm.GetString("ADupeFind") + " " + adupewatch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sec") + "\n");
 					Console.WriteLine(rm.GetString("MErr") + " " + moderrwatch.Elapsed.TotalSeconds.ToString() + " " + rm.GetString("sec") + "\n");
