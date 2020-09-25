@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Bad_Mod_Hunter;
 
 namespace Bad_Mod_Hunter
 {
