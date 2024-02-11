@@ -1,6 +1,6 @@
 This application is one of my earliest works when I was still getting a grasp on programming. As such... It sucks. I wouldn't suggest using it or relying on it too much. It just needs a rewrite.
 
-#BadModHunter
+# BadModHunter
 
 First of all, I’d like to re-iterate. The Hunter does NOT under any circumstance write or modify your files in any way. It reads them and that is all. The hunter is also not perfect and it may give you false positives or it may miss other errors entirely. If you suspect a false positive or encounter it missed an error it should’ve caught, let me know so I can continue improving the hunter.
 
